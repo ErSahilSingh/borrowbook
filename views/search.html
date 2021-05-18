@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <title>BORROWBOOK</title> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="search.css">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <header>
+            <nav class="nav-list">
+                <div class="logo">
+                    <h2>BORROWBOOK</h2>
+                    </div>
+                    <ul class="headnam">
+                        <li><a href="oldBook.html" class="link-b">BACK</a></li>
+                    </ul>
+                </nav>
+        </header><br><br><br>
+        <!------------------buy form-------------------------------->
+              
+                <section class="backC" id="listB">
+                    <div class="container-fluid" id="headaboutsell">
+                      <h1 class="text-center pt-3">Borrow books</h1>
+                      <hr class="w-25 mx-auto pt-3" id="hrC">
+                    </div>
+                    <div class="w-50 mx-auto">
+                        <form >
+                          <div class="form-group">
+                            <label for="name">Book Name:</label>
+                            <input type="text" class="form-control" id="boname">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Author Name:</label>
+                            <input type="text" class="form-control" id="auname">
+                          </div>
+                          <button type="button" class="btn btn-primary"  onclick="buy()">Search</button>
+                        </form>
+                        <hr class=" w-25 mx-auto pt-5" id="hrC">
+                    </div>
+                    </section>
+                    <br><br>
+                   <br><br><br> <section class="tables">
+                    <div class="container">           
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th>Fullname</th>
+                              <th>Phone no.</th>
+                              <th>Bookname</th>
+                              <th>Authorname</th>
+                              <th>Price</th>
+                              </tr>
+                          </thead>
+                          <tbody id ="search">
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                         <!--------------------footer----------------------------->
+                         <footer class="page-footer font-small mdb-color pt-4">
+
+                          <!-- Footer Links -->
+                          <div class="container text-center text-md-left">
+                        
+                            <!-- Footer links -->
+                            <div class="row text-center text-md-left mt-3 pb-3">
+                        
+                              <!-- Grid column -->
+                              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold text-white" >SAHIL SINGH</h6>
+                                
+                              </div>
+                        
+                              <hr class="w-100 clearfix d-md-none">
+                        
+                              <!-- Grid column -->
+                              <div class="col-md-2 col-lg-2 col-xl-3 mx-auto mt-3 text-white">
+                                <h6 class="text-uppercase mb-4 font-weight-bold ">Categories</h6>
+                                <p>Sell</p>
+                                <p > Buy</p>
+                                <p> About</p>
+                                <p>Contact us</p>
+                              </div>
+                              <!-- Grid column -->
+                        
+                              <hr class="w-100 clearfix d-md-none">
+                        
+                              <!-- Grid column -->
+                              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
+                                <h6 class="text-uppercase mb-4 font-weight-bold text-white">Social Media</h6>
+                                <p>
+                                  <i class="fab fa-whatsapp "></i> Whatsapp</p>
+                                <p>
+                                  <i class="fab fa-facebook-square"></i> Facebook</p>
+                                <p>
+                                  <i class="fab fa-linkedin"></i> Linkedin</p>
+                                <p>
+                                  <i class="fab fa-google-plus-g"></i> Google+</p>
+                              </div>
+                        
+                              <!-- Grid column -->
+                              <hr class="w-100 clearfix d-md-none">
+                        
+                              <!-- Grid column -->
+                              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-white">
+                                <p>
+                                   Softora Technologies Pvt.Ltd
+                                  
+                                    
+                                     
+                                    </p>
+                                <p>SOFTORA</p>
+                              </div>
+                              <!-- Grid column -->
+                        
+                            </div>
+                            <!-- Footer links -->
+                        
+                            <hr class="rgba-white-light">
+                        
+                            <!-- Grid row -->
+                            <div class="row d-flex align-items-center">
+                        
+                              <!-- Grid column -->
+                              <div class="col-md-7 col-lg-8">
+                        
+                                <!--Copyright-->
+                                <p class="text-center text-md-left text-white">2021 SAHIL SINGH. All Rights Reserved 
+                                </p>
+                        
+                              </div>
+                              <!-- Grid column -->
+                        
+                              <!-- Grid column -->
+                              <div class="col-md-5 col-lg-4 ml-lg-0 text-white">
+                        
+                                <!-- Social buttons -->
+                                <div class="text-center text-md-right">
+                                  <ul class="list-unstyled list-inline">
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <p>Terms of Service</p>
+                                      </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                      <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                        <p>Privacy Policy</p>
+                                      </a>
+                                    </li>
+                                   
+                                  </ul>
+                                </div>
+                        
+                              </div>
+                              <!-- Grid column -->
+                        
+                            </div>
+                            <!-- Grid row -->
+                        
+                          </div>
+                          <!-- Footer Links -->
+                        
+                        </footer>
+                        <!-- Footer -->
+
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="search.js"></script>
+    </body>
+    </html>
